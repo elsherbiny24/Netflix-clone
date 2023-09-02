@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-color: black;
+    background-image: url('../AE-en-20210817-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+     padding: 25px 40px 0px; 
+} 
+.home{
+   
+    background-image: url('../AE-en-20210817-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    border-bottom: 8px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .home::after{
+    content: '';
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom , #000 ,transparent);
+} */
+/* .home::before{
+    content: '';
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top , #000 ,transparent);
+} */
+
+.main{
+    /* min-height: 90vh;
+    width: 500px; */
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 20px 45px 20px;
+    height: 600px;
+    width: 450px;
+}
+.main h1{
+    font-size: 40px;
+    color: white;
+    margin: 20px 0;
+}
+.main form .email{
+    display: block;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 20px ;
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+   
+}
+.main form .email:focus{
+    background-color: #e8f0fe;
+    color: black;
+}
+.main form .email::placeholder{
+    color: #7a8280;
+}
+.main form .sub{
+    height: 50px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    outline: none;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+.main form #emailerror{
+    font-size: 13px;
+    color: #e87c03;
+}
+.main form #passerror{
+    font-size: 13px;
+    color: #e87c03;
+}
+.main form .ali{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main form div a{
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.main form div .rem label{
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+/* .main form #rem{
+    display: block;
+    color: #fff;
+} */
+.main .image{
+    margin: 20px 0 10px;
+    
+}
+.main .image a{
+    text-decoration: none;
+  
+    text-transform: capitalize;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.main .link a span{
+    text-decoration: none;
+color: #737373;
+
+}
+.main .link a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.main .link{
+    margin-bottom: 15px;
+}
+.main p{
+    color: #737373;
+
+}
+footer{
+    padding: 30px 100px;
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer a:hover{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+footer select {
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+footer ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+footer select option {
+    background-color: gray;
+}
+footer p {
+    color: #757575;
+    margin-top: 10px;
+}
+
